@@ -7,7 +7,28 @@
             <next>
               <block type="movement_right" id="41">
                 <next>
-                  <block type="movement_stop" id="51"></block>
+                  <block type="movement_stop" id="51">
+                    <next>
+                      <block type="variables_set" id="96" inline="true">
+                        <field name="VAR">item</field>
+                        <value name="VALUE">
+                          <block type="sensor_object" id="110">
+                            <field name="OBJECT">LEFTFRONT</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="111" inline="true">
+                            <field name="VAR">item</field>
+                            <value name="VALUE">
+                              <block type="sensor_button" id="119">
+                                <field name="OBJECT">UP</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
                 </next>
               </block>
             </next>
