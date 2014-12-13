@@ -21,7 +21,28 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="123"></block>
+      <block type="movement_stop" id="123">
+        <next>
+          <block type="led_select" id="143" inline="true">
+            <field name="ACTION">ON</field>
+            <value name="LED">
+              <block type="sensor_line" id="150">
+                <field name="LINE">LEFT</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="164" inline="true">
+                <field name="VAR">item</field>
+                <value name="VALUE">
+                  <block type="math_number" id="201">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
