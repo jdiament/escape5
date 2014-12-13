@@ -30,15 +30,4 @@
       </block>
     </next>
   </block>
-  <block type="movement_right" id="41" x="44" y="305">
-    <next>
-      <block type="robot_delay" id="126" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="156">
-            <field name="NUM">2000</field>
-          </block>
-        </value>
-      </block>
-    </next>
-  </block>
 </xml>
