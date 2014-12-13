@@ -30,16 +30,6 @@
                 <field name="LINE">LEFT</field>
               </block>
             </value>
-            <next>
-              <block type="variables_set" id="164" inline="true">
-                <field name="VAR">item</field>
-                <value name="VALUE">
-                  <block type="math_number" id="201">
-                    <field name="NUM">0</field>
-                  </block>
-                </value>
-              </block>
-            </next>
           </block>
         </next>
       </block>
