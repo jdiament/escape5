@@ -5,6 +5,11 @@
         <field name="OBJECT">LEFTFRONT</field>
       </block>
     </value>
+    <value name="BOTHMOVRIGHT">
+      <block type="sensor_spectrometer" id="71">
+        <field name="LIGHT">BLUE</field>
+      </block>
+    </value>
     <next>
       <block type="movement_rightmotor" id="42" inline="true">
         <value name="MOVRIGHT">
